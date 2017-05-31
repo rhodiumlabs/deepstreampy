@@ -12,6 +12,6 @@ setup(name='deepstreampy',
       description='A deepstream.io client.',
       license='MIT',
       url='https://www.github.com/YavorPaunov/deepstreampy',
-      packages=['deepstreampy', 'tests', 'features'],
+      packages=setuptools.find_packages(),
       long_description=read('README.md'),
       test_suite='tests')
